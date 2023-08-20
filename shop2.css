@@ -1,0 +1,55 @@
+
+body {
+  display: inline;
+
+}
+.container1 {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.btn btn-primary {
+  padding-bottom: 10px;
+}
+.footer {
+  margin-top: 80px;
+  width: auto;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-width: 0px;
+  border-style: outset;
+  border-color: rgb(206, 202, 202);
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+}
+.modal-body {
+  font-size: 20px;
+}
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.feature-row {
+ 
+  
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   flex-wrap: wrap;
+}
+.feature-col {
+  flex-basis: 25%;
+  text-align: center;
+}
+.feature-col img {
+  width: 100px;
+}
+.feature-col h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+

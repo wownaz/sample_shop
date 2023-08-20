@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  overflow-x: hidden; 
+  
+}
+#header {
+  height: 100vh;
+  background-image: url(hb32.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.logo {
+  margin-top: 30px;
+  width: 100px;
+}
+.header-text {
+  max-width: 350px;
+  margin-top: 140px;
+}
+h1 {
+  font-size: 34px;
+}
+
+.common-btn {
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid brown;
+  font-weight: bold;
+  cursor: pointer;
+}
+p {
+  font-size: 15px;
+  line-height: 18px;
+  color: #777;
+}
+.header-text button {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#about {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-left-col {
+  flex-basis: 50%;
+}
+.about-left-col img {
+  width: 100%;
+}
+.about-right-col {
+  flex-basis: 50%;
+  text-align: right;
+}
+.about-text {
+  max-width: 500px;
+  margin-right: 100px;
+  display: inline-block;
+}
+.about-text h2 {
+  margin: 50 px 0 10px;
+  font-size: 28px;
+  font-style: italic;
+}
+.about-text h3 {
+  font-size: 20px;
+  font-style: italic;
+  color: #797979;
+}
+
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.feature-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.feature-col {
+  flex-basis: 25%;
+  text-align: center;
+}
+.feature-col img {
+  width: 100px;
+}
+.feature-col h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.feature-btn {
+  margin: 80px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.mainmenubtn {
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mainmenubtn:hover {
+  background-color: red;
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  background-color: beige;
+  min-width: 200px;
+}
+.dropdown-child a {
+  color: brown;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+.lol{
+  display: inline-flex;
+}
+
+.inputs{
+  width: 300px;
+  height: 50px;
+}

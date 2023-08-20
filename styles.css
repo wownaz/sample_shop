@@ -1,0 +1,29 @@
+
+body{
+    display: inline; 
+    background-image: url(hb27.jpg);
+}
+.container1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn btn-primary{
+    padding-bottom: 10px;
+}
+.footer{
+    margin-top:80px;
+    width: auto;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-style: outset;
+    border-color: rgb(206, 202, 202); 
+    
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+.modal-body{
+    font-size: 20px;
+}
